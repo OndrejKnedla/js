@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+/* all page */
+
+.allPage {
+    background: linear-gradient(rgb(236, 105, 105), rgb(99, 99, 247));
+    height: 100vh;
+}
+
+
+/* playground */
+
+.playground {
+    width: 80%;
+    height: 80%;
+    background: rgb(255, 252, 194);
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+
+/* TotalScore */
+
+.totalScore {
+    font-size: 30px;
+    color: rgb(236, 105, 105);
+    font-weight: 700;
+}
+
+.totalScore p:nth-of-type(2) {
+    font-size: 40px;
+    text-align: center;
+}
+
+.totalScore0 {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+
+.totalScore1 {
+    position: absolute;
+    top: 15%;
+    left: 65%;
+}
+
+
+/* Current Score */
+
+.currentScore {
+    width: 150px;
+    height: 150px;
+    background: rgb(221, 185, 106);
+}
+
+.currentScore p {
+    font-size: 20px;
+    color: rgb(236, 105, 105);
+    text-align: center;
+}
+
+.currentScore p:nth-child(2) {
+    font-size: 40px;
+}
+
+.currentScore0 {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.currentScore1 {
+    position: absolute;
+    top: 40%;
+    right: 16%;
+}
+
+
+/* Middle text */
+
+.middleText {
+    position: absolute;
+    top: 65%;
+    left: 39%;
+    text-align: center;
+    /* margin-top: auto; */
+    font-size: 20px;
+    color: white;
+}
+
+.btn {
+    border: 2px solid coral;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: coral;
+}
+
+.btn:hover {
+    border: 2px solid crimson;
+    background-color: crimson;
+}
+
+
+/* Middle text */
+
+.dice {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+
+/* active */
+
+.active {
+    border: 2px solid rgb(255, 147, 47);
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 147, 47);
+}
